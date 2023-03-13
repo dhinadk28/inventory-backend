@@ -9,7 +9,7 @@ const encryptFunc = async (data) => {
     return e;
   }
 };
-
+//add
 const decryptFunc = async (plainPsw, encryptedPsw) => {
   try {
     const isValid = bcrypt.compare(plainPsw, encryptedPsw);
